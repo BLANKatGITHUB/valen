@@ -1,0 +1,65 @@
+body{
+    background-color: #A7D477 ;
+    color: #FF748B;
+    text-align: center;
+}
+
+h1{
+    color: #F72C5B;
+    font-size: 3rem;
+    font-family: "Pacifico", cursive;
+}
+
+.choice{
+    
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 2rem;
+}
+
+.choice div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    border: 1px solid #FF748B;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #E4F1AC;
+    min-width: 5%;
+    margin: auto;
+    
+
+}
+
+p{
+    font-size: 1rem;
+    padding: 5%;
+    font-family: "Sour Gummy", cursive;
+    
+}
+
+.chu{
+    width: 20%;
+    margin: 2rem;
+}
+
+.sad-cat{
+    width: 20%;
+    margin: 2rem;
+    display: none;
+    margin: auto;
+}
+
+.kiss-bear-kiss{
+    width: 40%;
+    margin: 2rem;
+    margin: auto;
+}
+
+.selected{
+    display: none;
+}
